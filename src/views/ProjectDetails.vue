@@ -359,7 +359,7 @@ const goBack = () => {
 }
 .secondary-btn {
   border-color: #cbd5e1 !important;
-  color: #1e293b !important;
+  color: rgba(26, 24, 24, 0.445) !important;
 }
 .secondary-btn:hover {
   background-color: #f8fafc;

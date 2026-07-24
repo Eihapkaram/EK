@@ -223,7 +223,7 @@ watch(
 .action-btn {
   letter-spacing: 0.5px;
   transition: transform 0.2s ease;
-  color: black;
+  color: rgba(26, 24, 24, 0.445);
   background-color: rgb(255, 117, 117);
 }
 

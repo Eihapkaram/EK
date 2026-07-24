@@ -205,7 +205,7 @@ const applyThemeStyles = (currentTheme) => {
     document.body.style.backgroundColor = 'black'
     if (submitBtn) {
       submitBtn.style.backgroundColor = ''
-      submitBtn.style.color = '#fff'
+      submitBtn.style.color = '#ffffff81'
     }
   } else {
     document.body.style.backgroundColor = 'transparent'
@@ -305,6 +305,7 @@ watch(
 .submit-btn {
   border-radius: 8px !important;
   letter-spacing: 0.5px;
+
   transition: transform 0.2s ease;
   padding: 0 !important;
   overflow: hidden;
@@ -312,7 +313,7 @@ watch(
 .submit-btn:hover {
   transform: translateY(-1px);
   box-shadow: 0 4px 12px rgba(245, 21, 21, 0.652) !important;
-  color: #e0d3d394;
+  color: rgba(26, 24, 24, 0.445);
 }
 
 /* نظام الغربان الشامل والممتد فوق النصوص */

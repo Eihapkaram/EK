@@ -382,6 +382,98 @@ Alpine.js: الشريك المثالي لإدارة تفاعلات الواجه�
       videoUrl: '',
       skills: ['Laravel Blade', 'Tailwind CSS', 'HTML5', 'CSS', 'JavaScript'],
     },
+    {
+      id: 9,
+      title: 'معرض أعمال مطور Full-Stack',
+      link: 'https://ek-chi.vercel.app/',
+      subtitle: 'مشروع واجهات أماميّة (Frontend)',
+      dis: `معرض أعمال احترافي للمطور
+
+تم تطوير موقع معرض أعمال شخصي عالي الأداء ومتجاوب بالكامل باستخدام Vue.js 3 (Composition API) لبناء هيكلية مكونات قابلة للتوسع ومنطق برمجي نظيف. تم تصميمه باستخدام Vuetify لتقديم واجهة المستخدم بأسلوب Material Design تتسم بالسلاسة، وسهولة الاستخدام، والاحترافية.
+
+أبرز الميزات والهيكلية البرمجية:
+
+إدارة الحالة (State Management): تم البناء باستخدام Pinia لإدارة حالة التطبيق بشكل مركزي، متوقع، وموحد.
+
+دعم متعدد اللغات (Localization): دعم كامل للغتين العربية والإنجليزية للتواصل مع جمهور عالمي ومتنوع.
+
+المظهر المتغير (Dynamic Theming): دعم التبديل السلس بين الوضعين الداكن والمضيء (Dark/Light mode) لتوفير مظهر مريح للعين في مختلف ظروف الإضاءة.
+
+التواصل المباشر: دمج زر واتساب ثابت للتواصل السريع والفعال مع العملاء وشبكة العلاقات المهنية.`,
+      mainImg: getAssetUrl('myproto/cover.png'),
+      imags: [
+        getAssetUrl('myproto/homel.png'),
+        getAssetUrl('myproto/homed.png'),
+        getAssetUrl('myproto/ditilspop.png'),
+        getAssetUrl('myproto/ditilse.png'),
+      ],
+      videoUrl: '',
+      skills: [
+        'vuejs',
+        'Vuetify',
+        'compositin api',
+        'Pinia',
+        'HTML5',
+        'تحسين نتائج محركات البحث (SEO)',
+        'HTML',
+        'CSS',
+        'Git',
+      ],
+    },
+    {
+      id: 10,
+      title: 'نظام إدارة حملات وويب هوك واتساب (WhatsApp SaaS)',
+      subtitle: 'full-stack',
+      link: 'https://whats-app-saas-tawny.vercel.app/',
+      dis: `لوحة تحكم وتوجيه حملات واتساب SaaS
+
+لوحة تحكم متكاملة، قوية وقابلة للتوسع مصممة للربط السلس مع Meta WhatsApp Cloud API. تم بناؤها باستخدام أحدث الممارسات البرمجية للواجهات الأمامية والخلفية لتوفير نظام متعدد المستخدمين (Multi-tenant) لإدارة عمليات إرسال واستقبال الرسائل.
+
+الميزات الرئيسية والتنفيذ التقني:
+
+• ربط إعدادات ميتا متعددة المستخدمين (Multi-Tenant Meta Settings Integration): يتيح للمستخدمين حفظ وتفعيل رمز الوصول (Access Token)، معرّف رقم الهاتف (Phone ID)، ورمز التحقق من الويب هوك (Webhook Verify Token) الخاص بهم بأمان.
+
+• معالجة الويب هوك والاستقبال الآلي (Unified Webhook & Automated Ingestion): استقبال رسائل الويب هوك الواردة، المطابقة الديناميكية لبيانات الاتصال، تنسيق الطوابع الزمنية، وحفظ الرسائل المستلمة في قاعدة البيانات.
+
+• عرض الرسائل مع التصفح من خادم البيانات (Server-Side Paginated Message Feed): واجهة مستخدم نظيفة لعرض رسائل العملاء المستلمة مع تقسيم الصفحات من طرف الخادم (Pagination) لضمان أداء سلس وسريع.
+
+• مرسل الحملات الجماعية الآلي (Automated Bulk Campaign Dispatcher): يتيح للمستخدمين رفع ملفات إكسيل تحتوي على أرقام المستلمين والرسائل المخصصة، مع إمكانية تحديد الفاصل الزمني بين الرسائل لتفادي حظر الحسابات أو تجاوز الحدود المسموحة (Rate-limiting).
+
+• المعالجة في الخلفية والطوابير (Queue & Background Processing): الاعتماد على Laravel Queue Jobs والتتبع المجمّع الديناميكي لتنفيذ إرسال الحملات في الخلفية دون استهلاك أو تعطيل موارد الخادم.
+
+• التحديث المباشر لتقدم الحملة (Real-Time Campaign Progress Polling): شريط تقدم تفاعلي يوضح حالة المعالجة، عدد الرسائل المكتملة، ونسبة الإنجاز فورياً.
+
+• تصدير البيانات إلى إكسيل (Excel Export Capability): ميزة التصدير الفوري التي تتيح للمستخدمين تحميل الرسائل المستلمة على شكل ملف إكسيل عبر تدفقات Blob.
+
+تقنيات المشروع (Tech Stack):
+Laravel (Queues, Webhooks, Maatwebsite Excel, Carbon), Vue 3, Pinia Store, Vuetify 3, Axios.`,
+      mainImg: getAssetUrl('sasstool/cover.png'),
+      imags: [
+        getAssetUrl('sasstool/log.png'),
+        getAssetUrl('sasstool/creat.png'),
+        getAssetUrl('sasstool/mate.png'),
+        getAssetUrl('sasstool/reseved.png'),
+        getAssetUrl('sasstool/camp.png'),
+      ],
+      videoUrl: '',
+      skills: [
+        'vuejs',
+
+        'laravel api',
+        'mysql',
+        'compositin api',
+        'vuetify',
+        'Pinia',
+
+        'Git',
+        'OOP',
+        'HTML',
+        'CSS',
+        'JavaScript',
+        'JSON',
+        'AJAX',
+      ],
+    },
   ])
   return { all, header }
 })

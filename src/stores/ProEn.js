@@ -446,6 +446,101 @@ Alpine.js: Perfect companion for handling lightweight frontend interactivity lik
       videoUrl: '',
       skills: ['Laravel Blade', 'Tailwind CSS', 'HTML5', 'CSS', 'JavaScript'],
     },
+    {
+      id: 9,
+      title: 'Full-Stack Developer Portfolio',
+      link: 'https://ek-chi.vercel.app/',
+      subtitle: 'frontend Project',
+      dis: `Professional Developer Portfolio
+
+Engineered a high-performance, fully responsive personal portfolio leveraging Vue.js 3 (Composition API) for scalable component architecture and clean logic. Styled with Vuetify to deliver a sleek, accessible, and polished Material Design user interface.
+
+Key Architecture & Features:
+
+State Management: Built with Pinia for centralized, predictable, and modular application state handling.
+
+Bilingual Localization: Full internationalization supporting both Arabic and English languages to connect with a diverse, global audience.
+
+Dynamic Theming: Implemented a seamless Dark/Light mode switcher tailored for optimal visual comfort across different lighting conditions.
+
+Direct Engagement: Integrated a sticky WhatsApp quick-contact widget for instantaneous professional networking and client communication.`,
+      mainImg: getAssetUrl('myproto/cover.png'),
+      imags: [
+        getAssetUrl('myproto/homel.png'),
+        getAssetUrl('myproto/homed.png'),
+        getAssetUrl('myproto/ditilspop.png'),
+        getAssetUrl('myproto/ditilse.png'),
+      ],
+      videoUrl: '',
+      skills: [
+        'vuejs',
+        'Vuetify',
+        'compositin api',
+        'Pinia',
+        'HTML5',
+
+        'تحسين نتائج محركات البحث (SEO)',
+
+        'HTML',
+
+        'CSS',
+
+        'Git',
+      ],
+    },
+    {
+      id: 10,
+      title: 'WhatsApp SaaS Campaign & Webhook Management System',
+      subtitle: 'full-stack',
+      link: 'https://whats-app-saas-tawny.vercel.app/',
+      dis: `WhatsApp SaaS Campaign & Messaging Dashboard
+
+A robust and scalable feature-packed SaaS control panel designed to integrate seamlessly with the Meta WhatsApp Cloud API. Built using modern backend and frontend practices, this module enables multi-tenant handling of incoming and outgoing messaging workflows.
+
+Key Features & Technical Implementation:
+
+Multi-Tenant Meta Settings Integration: Securely allows users to save and activate their own Meta Access Token, Phone ID, and Webhook Verify Token.
+
+Unified Webhook & Automated Ingestion: Handles incoming message payloads, dynamically matches contacts, formats timestamps, and persists received messages in the database.
+
+Server-Side Paginated Message Feed: Clean UI representation of received customer messages with real-time server-side pagination to ensure smooth frontend performance.
+
+Automated Bulk Campaign Dispatcher: Allows users to upload Excel sheets containing recipient contact details and customized messages, with customizable delivery delays to prevent rate-limiting.
+
+Queue & Background Processing: Implements Laravel Queue Jobs and dynamic batch tracking to process campaign deliveries seamlessly in the background without blocking server resources.
+
+Real-Time Campaign Progress Polling: Interactive progress bar UI displaying processing states, completed counts, and percentage updates.
+
+Excel Export Capability: Instant export functionality allowing users to download received messages into Excel format via Blob streams.
+
+Tech Stack: Laravel (Queues, Webhooks, Maatwebsite Excel, Carbon), Vue 3, Pinia Store, Vuetify 3, Axios.`,
+      mainImg: getAssetUrl('sasstool/cover.png'),
+      imags: [
+        getAssetUrl('sasstool/log.png'),
+        getAssetUrl('sasstool/creat.png'),
+        getAssetUrl('sasstool/mate.png'),
+        getAssetUrl('sasstool/reseved.png'),
+        getAssetUrl('sasstool/camp.png'),
+      ],
+      videoUrl: '',
+      skills: [
+        'vuejs',
+
+        'laravel api',
+        'mysql',
+        'compositin api',
+        'vuetify',
+        'Pinia',
+
+        'Git',
+        'OOP',
+        'HTML',
+        'CSS',
+        'JavaScript',
+        'JSON',
+        'AJAX',
+      ],
+    },
   ])
   return { all, header }
 })
