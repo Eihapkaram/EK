@@ -603,8 +603,8 @@ watch(
     width: auto;
     justify-content: center;
     align-content: center;
-    gap: 30px;
-    margin-left: 100px;
+    gap: 15px;
+    margin-left: 88px;
   }
   .linkslist :deep(a) {
     font-size: 0.85rem;
