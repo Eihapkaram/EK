@@ -588,7 +588,7 @@ watch(
   }
   .logo {
     position: relative;
-    margin-inline: 8px;
+    margin-inline: 10px;
     left: 0px;
   }
   .nav {
@@ -603,8 +603,8 @@ watch(
     width: auto;
     justify-content: center;
     align-content: center;
-    gap: 15px;
-    margin-left: 88px;
+    gap: 36px;
+    margin-left: 93px;
   }
   .linkslist :deep(a) {
     font-size: 0.85rem;
