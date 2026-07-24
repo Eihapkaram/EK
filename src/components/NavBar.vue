@@ -584,11 +584,11 @@ watch(
 @media (max-width: 991px) {
   .theme-switch-container {
     position: relative;
-    left: -20px;
+    left: 0px;
   }
   .logo {
     position: relative;
-    left: 20px;
+    left: 0px;
   }
   .nav {
     display: flex;

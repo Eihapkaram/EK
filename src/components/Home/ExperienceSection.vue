@@ -235,15 +235,15 @@ watch(
 /* تباعد مخصص للشاشات الصغيرة */
 @media (max-width: 959px) {
   .v-timeline--vertical.v-timeline--justify-center {
-    grid-template-columns: minmax(auto, 0%) min-content minmax(auto, 0%);
+    grid-template-columns: minmax(auto, 50%) min-content minmax(auto, 0%);
   }
   .text-h3 {
     font-size: 1.8rem !important;
   }
 }
 @media (max-width: 600px) {
-  .v-timeline--vertical.v-timeline--justify-center[data-v-9f0b4001] {
-    grid-template-columns: minmax(0px, 0%) min-content minmax(0px, 0%);
+  .v-timeline--vertical.v-timeline--justify-center {
+    grid-template-columns: minmax(auto, 0%) min-content minmax(auto, 0%);
   }
   #experience {
     padding: 0px;
