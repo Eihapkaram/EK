@@ -235,7 +235,7 @@ watch(
 /* تباعد مخصص للشاشات الصغيرة */
 @media (max-width: 959px) {
   .v-timeline--vertical.v-timeline--justify-center {
-    grid-template-columns: minmax(auto, 50%) min-content minmax(auto, 50%);
+    grid-template-columns: minmax(auto, 21%) min-content minmax(auto, 50%);
   }
   .text-h3 {
     font-size: 1.8rem !important;

@@ -588,6 +588,7 @@ watch(
   }
   .logo {
     position: relative;
+    margin-inline: 8px;
     left: 0px;
   }
   .nav {
