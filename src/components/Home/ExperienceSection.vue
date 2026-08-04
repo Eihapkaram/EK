@@ -129,8 +129,8 @@ watch(
    .v-timeline--vertical.v-timeline--justify-center {
     grid-template-columns: minmax(auto, 50%) min-content minmax(auto, 50%);
     position: relative;
-    left: 236px;
-    right: 236px;
+    left: 230px;
+    right: 230px;
   }
 /* التنسيق الأساسي للخلفية الفاتحة والنظيفة */
 .experience-clean-section {
