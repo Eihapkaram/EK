@@ -575,7 +575,7 @@ watch(
     width: auto;
     justify-content: center;
     align-content: center;
-    gap: 50px;
+    gap: 36px;
     margin-left: 300px;
     margin-right: 300px;
   }
