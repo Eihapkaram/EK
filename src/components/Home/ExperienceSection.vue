@@ -126,6 +126,12 @@ watch(
 </script>
 
 <style scoped>
+   .v-timeline--vertical.v-timeline--justify-center {
+    grid-template-columns: minmax(auto, 50%) min-content minmax(auto, 50%);
+    position: relative;
+    left: 236px;
+    right: 236px;
+  }
 /* التنسيق الأساسي للخلفية الفاتحة والنظيفة */
 .experience-clean-section {
   font-family: 'Inter', sans-serif;
