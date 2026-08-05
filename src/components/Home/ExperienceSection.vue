@@ -242,6 +242,9 @@ watch(
 @media (max-width: 959px) {
   .v-timeline--vertical.v-timeline--justify-center {
     grid-template-columns: minmax(auto, 21%) min-content minmax(auto, 50%);
+     position: relative;
+    left: 0px;
+    right: 0px;
   }
   .text-h3 {
     font-size: 1.8rem !important;
@@ -250,6 +253,9 @@ watch(
 @media (max-width: 600px) {
   .v-timeline--vertical.v-timeline--justify-center {
     grid-template-columns: minmax(auto, 0%) min-content minmax(auto, 0%);
+     position: relative;
+    left: 0px;
+    right: 0px;
   }
   #experience {
     padding: 0px;
